@@ -13,9 +13,9 @@ function eliminarContenedor() {
 }
 function obtenerIPContenedor() {
     // Nombre del contenedor que deseas obtener
-    const nombreContenedor = 'contenedor1'; // Reemplaza con el nombre del contenedor que desees
+    const nombreContenedor = 'contenedor1';
 
-    // Realiza una solicitud GET al servidor para obtener la dirección IP
+    //  solicitud GET al servidor para obtener la dirección IP
     fetch(`/getContainerIP/${nombreContenedor}`)
     .then(response => response.json())
     .then(data => {
