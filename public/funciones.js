@@ -12,7 +12,7 @@ function eliminarContenedor() {
     .catch(error=> console.error(error))
 }
 function obtenerIPContenedor() {
-    // Nombre del contenedor que deseas obtener
+    // Nombre del contenedor a obtener
     const nombreContenedor = 'contenedor1';
 
     //  solicitud GET al servidor para obtener la dirección IP
