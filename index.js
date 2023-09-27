@@ -81,7 +81,7 @@ app.get('/getContainerIP/:containerName', (req, res) => {
 
 function agregarIPABalanceador(ipAddress) {
   // Ruta al archivo de configuración de Nginx
-  const nginxConfigFile = '/etc/nginx/nginx.conf'; // Cambia la ruta según tu configuración
+  const nginxConfigFile = '/etc/nginx/nginx.conf';
 
   // Contenido a agregar al archivo de configuración
   const nuevoBloque = `
